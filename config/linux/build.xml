@@ -202,10 +202,9 @@
                 </parallel>
             </beforeLink>
             <link>
-              <!--
                 <fileset dir="${lib.native}/org/lwjgl">
                     <include name="libffi.a"/>
-                </fileset> -->
+                </fileset>
                 <arg value="-ldl"/>
                 <arg value="-lffi"/>
             </link>

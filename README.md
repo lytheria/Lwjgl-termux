@@ -63,7 +63,7 @@ pkg install mesa-zink
 ```
 &ensp;&ensp;• zink my build version (required Vulkan 1.1):
 ```
-wget https://github.com/lytheria/mesa-zink-opengl/releases/download/3.3.6/mesa-zink-opengl-23.0.4_aarch64.deb && dpkg -i mesa-zink-opengl-23.0.4_aarch64.deb
+wget https://github.com/lytheria/mesa-zink-opengl/releases/download/23.x.x/mesa-zink-opengl-23.0.4_aarch64.deb && dpkg -i mesa-zink-opengl-23.0.4_aarch64.deb
 ```
 &ensp;&ensp;• VirGL for all GPUs that support OpenGL ES only (required OpenGL ES 3.0):
 ```

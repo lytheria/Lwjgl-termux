@@ -49,8 +49,7 @@ pkg install openjdk-17 -y
 ```
 &ensp;X11 and depencies:
 ```
-pkg install x11-repo && pkg update && pkg install libandroid-shmem libdrm libexpat libexpat-static zstd zlib libxcb libx11 libc++
-&& pkg install termux-x11 xorgproto libxxf86vm libwayland vulkan-loader libxxf86dga libxrandr libx11-static libxext
+pkg install x11-repo && pkg update && pkg install libandroid-shmem libdrm libexpat libexpat-static zstd zlib libxcb libx11 libc++ && pkg install termux-x11 xorgproto libxxf86vm libwayland vulkan-loader libxxf86dga libxrandr libx11-static libxext
 ```
 &ensp;Install OpenGL Drivers:<br>
 <br>
